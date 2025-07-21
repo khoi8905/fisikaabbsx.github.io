@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Ajar Hukum Newton SMA Kelas X - Mr Khoir</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-blue-50">
+    <!-- Navbar -->
+    <nav class="fixed w-full top-0 left-0 bg-gradient-to-r from-blue-900 to-indigo-800 bg-opacity-90 backdrop-blur-sm z-50 shadow-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-white text-xl md:text-2xl font-bold rounded-lg px-3 py-1 bg-indigo-700 bg-opacity-70">Fisika X</h1>
+            <div class="flex space-x-4">
+                <button id="navMateri" class="text-white hover:text-indigo-200 font-medium transition duration-300 px-3 py-2 rounded-lg hover:bg-indigo-700 hover:bg-opacity-50">Materi Ajar</button>
+                <button id="navLKPD" class="text-white hover:text-indigo-200 font-medium transition duration-300 px-3 py-2 rounded-lg hover:bg-indigo-700 hover:bg-opacity-50">LKPD</button>
+                <button id="navAsesmen" class="text-white hover:text-indigo-200 font-medium transition duration-300 px-3 py-2 rounded-lg hover:bg-indigo-700 hover:bg-opacity-50">Asesmen</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <!-- Added pt-24 directly to the main tag to push content down -->
+    <main class="container mx-auto px-4 py-8 section-content pt-24">
+        <!-- Materi Ajar Section -->
+        <section id="materiSection" class="bg-white p-6 md:p-8 rounded-xl shadow-lg mb-8">
+            <h2 class="text-3xl font-bold text-indigo-800 mb-6 text-center">Materi Ajar Hukum Newton</h2>
+            <!-- <p class="text-gray-700 mb-6 text-center">
+                Pelajari konsep dasar Hukum Newton melalui materi PDF dan video apersepsi berikut.
+            </p> -->
+
+            <!-- PDF Embed -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-indigo-700 mb-4">Materi PDF</h3>
+                <div class="pdf-embed">
+                    <!-- Ganti URL ini dengan link PDF materi Anda -->
+                    <iframe src="pdf/hukum_newton.pdf" class="w-full h-full rounded-lg"></iframe>
+                </div>
+                <!-- <p class="text-sm text-gray-500 mt-2 text-center">
+                    (Pastikan PDF Anda dihosting di tempat yang bisa diakses publik atau gunakan Google Drive dengan izin berbagi)
+                </p> -->
+            </div>
+
+            <!-- Video Apersepsi -->
+            <div>
+                <h3 class="text-2xl font-semibold text-indigo-700 mb-4">Video Apersepsi</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="video-embed">
+                        <!-- Ganti URL ini dengan link video YouTube atau lainnya -->
+                        <iframe src="vid/video_newton_1.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full h-full rounded-lg"></iframe>
+                    </div>
+                    <div class="video-embed">
+                        <!-- Ganti URL ini dengan link video YouTube atau lainnya -->
+                        <iframe src="vid/video_newton_2.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full h-full rounded-lg"></iframe>
+                    </div>
+                    <div class="video-embed">
+                        <!-- Ganti URL ini dengan link video YouTube atau lainnya -->
+                        <iframe src="vid/video_newton_3.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full h-full rounded-lg"></iframe>
+                    </div>
+                </div>
+                <!-- <p class="text-sm text-gray-500 mt-2 text-center">
+                    (Pastikan video memiliki rasio aspek portrait atau sesuaikan tinggi iframe)
+                </p> -->
+            </div>
+        </section>
+
+        <!-- LKPD Section -->
+        <section id="lkpdSection" class="hidden-section bg-white p-6 md:p-8 rounded-xl shadow-lg mb-8">
+            <h2 class="text-3xl font-bold text-indigo-800 mb-6 text-center">Lembar Kerja Peserta Didik (LKPD)</h2>
+            <p class="text-gray-700 mb-6 text-center">
+                Kerjakan LKPD berikut bersama kelompok Anda dan unggah hasilnya.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- LKPD PDF Embed (2/3 kiri) -->
+                <div class="md:col-span-2">
+                    <h3 class="text-2xl font-semibold text-indigo-700 mb-4">LKPD Hukum Newton</h3>
+                    <div class="pdf-embed">
+                        <!-- Ganti URL ini dengan link PDF LKPD Anda -->
+                        <iframe src="pdf/lkpd_newton.pdf" class="w-full h-full rounded-lg"></iframe>
+                    </div>
+                    <!-- <p class="text-sm text-gray-500 mt-2 text-center">
+                        (Pastikan PDF LKPD Anda dihosting di tempat yang bisa diakses publik)
+                    </p> -->
+                </div>
+
+                <!-- LKPD Form (1/3 kanan) -->
+                <div class="md:col-span-1 bg-indigo-50 p-6 rounded-xl shadow-inner">
+                    <h3 class="text-2xl font-semibold text-indigo-700 mb-4">Form Diskusi Kelompok</h3>
+                    <form id="lkpdForm" class="space-y-4">
+                        <div>
+                            <label for="kelompok" class="block text-gray-700 font-medium mb-2">Kelompok</label>
+                            <select id="kelompok" name="kelompok" required>
+                                <option value="">Pilih Kelompok</option>
+                                <option value="1">Kelompok 1</option>
+                                <option value="2">Kelompok 2</option>
+                                <option value="3">Kelompok 3</option>
+                                <option value="4">Kelompok 4</option>
+                                <option value="5">Kelompok 5</option>
+                                <option value="6">Kelompok 6</option>
+                                <option value="7">Kelompok 7</option>
+                                <option value="8">Kelompok 8</option>
+                                <option value="9">Kelompok 9</option>
+                                <option value="10">Kelompok 10</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="namaSiswa1" class="block text-gray-700 font-medium mb-2">Nama Siswa 1</label>
+                            <input type="text" id="namaSiswa1" name="namaSiswa1" placeholder="Nama Lengkap Siswa 1" required>
+                        </div>
+                        <div>
+                            <label for="namaSiswa2" class="block text-gray-700 font-medium mb-2">Nama Siswa 2</label>
+                            <input type="text" id="namaSiswa2" name="namaSiswa2" placeholder="Nama Lengkap Siswa 2" required>
+                        </div>
+                        <div>
+                            <label for="namaSiswa3" class="block text-gray-700 font-medium mb-2">Nama Siswa 3</label>
+                            <input type="text" id="namaSiswa3" name="namaSiswa3" placeholder="Nama Lengkap Siswa 3" required>
+                        </div>
+                        <div>
+                            <label for="fileLKPD" class="block text-gray-700 font-medium mb-2">Unggah File Hasil Diskusi (PDF)</label>
+                            <input type="file" id="fileLKPD" name="fileLKPD" accept=".pdf" required>
+                        </div>
+                        <button type="submit" class="btn-primary w-full">Unggah Hasil LKPD</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Asesmen Section -->
+        <section id="asesmenSection" class="hidden-section bg-white p-6 md:p-8 rounded-xl shadow-lg mb-8">
+            <h2 class="text-3xl font-bold text-indigo-800 mb-6 text-center">Asesmen Hukum Newton</h2>
+            <p class="text-gray-700 mb-6 text-center">
+                Silakan login untuk memulai asesmen.
+            </p>
+
+            <!-- Login Form -->
+            <div id="loginFormContainer" class="max-w-md mx-auto bg-indigo-50 p-8 rounded-xl shadow-inner">
+                <h3 class="text-2xl font-semibold text-indigo-700 mb-6 text-center">Login Asesmen</h3>
+                <form id="loginForm" class="space-y-4">
+                    <div>
+                        <label for="username" class="block text-gray-700 font-medium mb-2">Username</label>
+                        <input type="text" id="username" name="username" placeholder="Masukkan username Anda" required>
+                    </div>
+                    <div>
+                        <label for="password" class="block text-gray-700 font-medium mb-2">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Masukkan password Anda" required>
+                    </div>
+                    <!-- Added mt-4 to move the button down -->
+                    <div>
+                        <button type="submit" class="btn-primary w-full mt-4">Login</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Asesmen Form (hidden by default) -->
+            <div id="asesmenFormContainer" class="hidden-section max-w-2xl mx-auto bg-indigo-50 p-8 rounded-xl shadow-inner">
+                <h3 class="text-2xl font-semibold text-indigo-700 mb-6 text-center">Form Asesmen</h3>
+                <form id="asesmenForm" class="space-y-6">
+                    <div>
+                        <label for="namaLengkap" class="block text-gray-700 font-medium mb-2">Nama Lengkap</label>
+                        <input type="text" id="namaLengkap" name="namaLengkap" placeholder="Nama Lengkap Anda" required>
+                    </div>
+                    <div>
+                        <label for="kelas" class="block text-gray-700 font-medium mb-2">Kelas</label>
+                        <input type="text" id="kelas" name="kelas" placeholder="Contoh: X MIPA 1" required>
+                    </div>
+
+                    <div id="questionsContainer" class="space-y-6">
+                        <!-- Questions will be loaded here by JavaScript -->
+                        <p class="text-gray-600 text-center">Memuat soal asesmen...</p>
+                    </div>
+
+                    <button type="submit" class="btn-primary w-full mt-8">Kirim Jawaban</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-6 text-center shadow-inner">
+        <p class="text-sm">&copy; 2025 Materi Ajar Hukum Newton SMA Kelas X - Mr Khoir</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

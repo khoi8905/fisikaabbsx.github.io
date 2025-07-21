@@ -1,0 +1,132 @@
+[
+    {
+        "id": "1",
+        "type": "mcq",
+        "question": "Apa bunyi Hukum Newton I?",
+        "options": {
+            "a": "Percepatan berbanding lurus dengan gaya",
+            "b": "Setiap aksi ada reaksi",
+            "c": "Benda cenderung mempertahankan keadaannya",
+            "d": "Gaya adalah massa dikali percepatan"
+        },
+        "answer": "c"
+    },
+    {
+        "id": "2",
+        "type": "mcq",
+        "question": "Rumus Hukum Newton II adalah...",
+        "options": {
+            "a": "F = m/a",
+            "b": "F = m * a",
+            "c": "F = a/m",
+            "d": "F = m + a"
+        },
+        "answer": "b"
+    },
+    {
+        "id": "3",
+        "type": "mcq",
+        "question": "Jika Anda mendorong dinding, dinding akan memberikan gaya yang sama besar namun berlawanan arah. Ini adalah contoh Hukum Newton ke-",
+        "options": {
+            "a": "I",
+            "b": "II",
+            "c": "III",
+            "d": "IV"
+        },
+        "answer": "c"
+    },
+    {
+        "id": "4",
+        "type": "mcq",
+        "question": "Satuan dari gaya dalam Sistem Internasional (SI) adalah...",
+        "options": {
+            "a": "Joule",
+            "b": "Watt",
+            "c": "Newton",
+            "d": "Pascal"
+        },
+        "answer": "c"
+    },
+    {
+        "id": "5",
+        "type": "mcq",
+        "question": "Sebuah benda memiliki massa 10 kg dan mengalami percepatan 2 m/s². Berapakah gaya yang bekerja pada benda tersebut?",
+        "options": {
+            "a": "5 N",
+            "b": "12 N",
+            "c": "20 N",
+            "d": "100 N"
+        },
+        "answer": "c"
+    },
+    {
+        "id": "6",
+        "type": "mcq",
+        "question": "Apa yang dimaksud dengan inersia?",
+        "options": {
+            "a": "Gaya yang menyebabkan benda bergerak",
+            "b": "Kecenderungan benda untuk mempertahankan keadaannya",
+            "c": "Percepatan benda karena gravitasi",
+            "d": "Gaya gesek antara dua permukaan"
+        },
+        "answer": "b"
+    },
+    {
+        "id": "7",
+        "type": "mcq",
+        "question": "Ketika Anda mengerem mendadak di dalam mobil, tubuh Anda terdorong ke depan. Fenomena ini terkait dengan Hukum Newton ke-",
+        "options": {
+            "a": "I",
+            "b": "II",
+            "c": "III",
+            "d": "IV"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "8",
+        "type": "mcq",
+        "question": "Gaya normal adalah gaya yang...",
+        "options": {
+            "a": "Sejajar dengan permukaan kontak",
+            "b": "Tegak lurus dengan permukaan kontak",
+            "c": "Menarik benda ke pusat bumi",
+            "d": "Menghambat gerakan benda"
+        },
+        "answer": "b"
+    },
+    {
+        "id": "9",
+        "type": "mcq",
+        "question": "Jika resultan gaya yang bekerja pada suatu benda adalah nol, maka benda tersebut akan...",
+        "options": {
+            "a": "Bergerak dengan percepatan konstan",
+            "b": "Bergerak dengan kecepatan konstan atau diam",
+            "c": "Berhenti seketika",
+            "d": "Mengalami perubahan arah gerak"
+        },
+        "answer": "b"
+    },
+    {
+        "id": "10",
+        "type": "mcq",
+        "question": "Prinsip kerja roket didasarkan pada Hukum Newton ke-",
+        "options": {
+            "a": "I",
+            "b": "II",
+            "c": "III",
+            "d" : "IV"
+        },
+        "answer" : "c"
+    },
+    {
+        "id" : "11",
+        "type" : "essay",
+        "question" : "Jelaskan konsep inersia dan berikan contohnya dalam kehidupan sehari-hari."
+    },
+    {
+        "id" : "12",
+        "type" : "essay",
+        "question" : "Bagaimana Hukum Newton III dapat menjelaskan prinsip kerja roket?"
+    }
+]
